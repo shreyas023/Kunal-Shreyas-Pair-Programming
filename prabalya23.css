@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: black;
+    font-family:'Stardos Stencil', cursive;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.nm-logo{
+    display: inline-block;
+    position: fixed;
+    left:0px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.nm-logo hr{
+    color:black;
+    padding: 5px 0;
+    margin: 0px;
+}
+.nm-logo label{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 40px 0;
+    color: white;
+}
+.logo{
+    position:fixed;
+    right:550px;
+    padding: 50px 0 0;
+    display: block;
+    transition:transform 2s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.dropdown{
+    display: inline-block;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+}
+
+.dropdown-options{
+    display: none;
+    overflow: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-options{
+    display: block;
+}
+.dropdown-options a{
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+.dropdown-options a:hover{
+    color: white;
+    background-color: #c82b00;
+    border-radius: 5px;
+}
